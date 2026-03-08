@@ -25,7 +25,7 @@ export function ProyectoDetalle() {
         'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/c3757efc-3fbb-4ab7-8179-01403cce9ebb_uag3zo.jpg',
         'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/af036623-d36c-49a6-8ca4-fee6fd492f22_acmx6c.jpg'
       ],
-      description: ''
+      description: 'Galería de nuestros proyectos'
     }
   };
 
