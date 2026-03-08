@@ -12,7 +12,7 @@ export function ProyectosPage() {
   const projects = [
     {
       id: '1',
-      image: 'https://images.unsplash.com/photo-1622015663319-e97e697503ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYSUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc3MTgzMjYzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938481/36adf109-7768-45f1-a0a6-fe81988fe2f5_fgan1o.jpg',
       title: 'Apartamento en Rosales',
       category: 'Remodelación',
       location: 'Rosales, Bogotá',
@@ -23,7 +23,7 @@ export function ProyectosPage() {
     },
     {
       id: '2',
-      image: 'https://images.unsplash.com/photo-1559329146-807aff9ff1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MTg0NTA5OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938482/6c5454df-8b76-41ce-9d18-75e0f80c0cd1_rrhd0w.jpg',
       title: 'Casa en La Calera',
       category: 'Remodelación',
       location: 'La Calera, Cundinamarca',
@@ -34,7 +34,7 @@ export function ProyectosPage() {
     },
     {
       id: '3',
-      image: 'https://images.unsplash.com/photo-1706808849777-96e0d7be3bb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBob3VzZSUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MTg2MDk1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938482/6edeb301-32ca-4a65-9b82-1ff75f6783d2_hz7fek.jpg',
       title: 'Apartamento en Chicó',
       category: 'Remodelación',
       location: 'Chicó, Bogotá',
@@ -45,7 +45,7 @@ export function ProyectosPage() {
     },
     {
       id: '4',
-      image: 'https://images.unsplash.com/photo-1643034738686-d69e7bc047e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBraXRjaGVuJTIwd2hpdGV8ZW58MXx8fHwxNzcxODgwMTY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938482/8be69a4a-09a5-4e86-895f-99c0438a67a3_yfm0uf.jpg',
       title: 'Cocina en Usaquén',
       category: 'Remodelación',
       location: 'Usaquén, Bogotá',
@@ -56,7 +56,7 @@ export function ProyectosPage() {
     },
     {
       id: '5',
-      image: 'https://images.unsplash.com/photo-1640109414028-4c7f29f39ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBiZWRyb29tJTIwaW50ZXJpb3J8ZW58MXx8fHwxNzcxODY5Mzg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938483/68f79043-7730-4010-ac25-1ab906d099e1_k40sld.jpg',
       title: 'Suite Principal en La Cabrera',
       category: 'Diseño',
       location: 'La Cabrera, Bogotá',
@@ -67,7 +67,7 @@ export function ProyectosPage() {
     },
     {
       id: '6',
-      image: 'https://images.unsplash.com/photo-1754788358645-d6e6cca12e25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiYXRocm9vbSUyMHNwYSUyMG1hcmJsZXxlbnwxfHx8fDE3NzE4MjI5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938484/58330586-f977-4718-849f-cab9421f9764_nzzrqp.jpg',
       title: 'Baño Principal en Santa Bárbara',
       category: 'Remodelación',
       location: 'Santa Bárbara, Bogotá',
