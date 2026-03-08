@@ -1,0 +1,25 @@
+# robots.txt para Prestigio Remodelaciones
+# Permitir todos los bots de búsqueda
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /404
+
+# Bots específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (opcional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://prestigio-remodelaciones.com/sitemap.xml
