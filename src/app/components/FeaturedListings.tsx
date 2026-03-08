@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 export function FeaturedListings() {
   const projects = [
     {
-      image: 'https://images.unsplash.com/photo-1622015663319-e97e697503ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYSUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc3MTgzMjYzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/dcf29a46-d875-4d57-adcb-312abe357685_dbqvse.jpg',
       title: 'Apartamento en Rosales',
       category: 'Remodelación integral – 9 semanas',
       area: '85 m²',
@@ -13,7 +13,7 @@ export function FeaturedListings() {
       description: 'Redistribución de cocina y renovación total de baños con acabados de alta especificación.'
     },
     {
-      image: 'https://images.unsplash.com/photo-1559329146-807aff9ff1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MTg0NTA5OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938484/a5f72652-1b4a-4bf5-9fc1-7ae23e57d830_z7esdq.jpg',
       title: 'Casa en La Calera',
       category: 'Restauración y modernización interior',
       area: '120 m²',
@@ -21,7 +21,7 @@ export function FeaturedListings() {
       description: 'Renovación completa manteniendo elementos arquitectónicos originales con materiales premium.'
     },
     {
-      image: 'https://images.unsplash.com/photo-1706808849777-96e0d7be3bb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBob3VzZSUyMGV4dGVyaW9yfGVufDF8fHx8MTc3MTg2MDk1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938482/38f3caa0-9df2-4140-b45b-bbd70b0f3cb2_o9pcan.jpg',
       title: 'Apartamento en Chicó',
       category: 'Remodelación completa',
       area: '95 m²',
