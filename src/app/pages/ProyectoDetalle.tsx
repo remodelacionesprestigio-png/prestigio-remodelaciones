@@ -10,16 +10,20 @@ export function ProyectoDetalle() {
   // En una app real, esto vendría de una API o base de datos
   const projectsData: Record<string, any> = {
     '1': {
-      title: 'Villa Moderna Beverly Hills',
+      title: 'Todos Nuestros Proyectos',
       category: 'Construcción',
       mainImage: 'https://images.unsplash.com/photo-1622015663319-e97e697503ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYSUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc3MTgzMjYzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       gallery: [
-        'https://images.unsplash.com/photo-1640109414028-4c7f29f39ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBiZWRyb29tJTIwaW50ZXJpb3J8ZW58MXx8fHwxNzcxODY5Mzg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-        'https://images.unsplash.com/photo-1643034738686-d69e7bc047e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBraXRjaGVuJTIwd2hpdGV8ZW58MXx8fHwxNzcxODgwMTY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-        'https://images.unsplash.com/photo-1754788358645-d6e6cca12e25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiYXRocm9vbSUyMHNwYSUyMG1hcmJsZXxlbnwxfHx8fDE3NzE4MjI5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-        'https://images.unsplash.com/photo-1707299231603-6c0a93e0f7fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbGl2aW5nJTIwcm9vbSUyMGRlc2lnbnxlbnwxfHx8fDE3NzE4ODAwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-        'https://images.unsplash.com/photo-1622015663319-e97e697503ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYSUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc3MTgzMjYzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-        'https://images.unsplash.com/photo-1640109414028-4c7f29f39ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBiZWRyb29tJTIwaW50ZXJpb3J8ZW58MXx8fHwxNzcxODY5Mzg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/eeb35f12-ffb0-43b6-a138-70bdd6a0f256_lh1ukg.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/f06bb201-a7f3-4070-a1d5-cef1fa2cfd20_bxh3gi.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/f3bb1431-f8b0-46d7-ae00-a1687c108da0_c7qvew.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/fb88f514-9a6c-444b-a9a3-cfa4da19be45_knchce.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/edf805f4-a0b0-4121-bfdb-677bbb8fa89a_jqkxgq.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938488/e4012865-1c42-4bd3-bc84-c85c18279d6f_vluxqa.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938489/dcf29a46-d875-4d57-adcb-312abe357685_dbqvse.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938486/cb7a909b-047e-4c4e-9e9b-6fdc0ce06954_hhg23l.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/c3757efc-3fbb-4ab7-8179-01403cce9ebb_uag3zo.jpg',
+        'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/af036623-d36c-49a6-8ca4-fee6fd492f22_acmx6c.jpg'
       ],
       description: 'Esta espectacular villa moderna en Beverly Hills representa lo mejor de la construcción de lujo contemporánea. Diseñada con una estética minimalista y acabados de la más alta calidad, la propiedad cuenta con amplios espacios abiertos, techos de doble altura y grandes ventanales que maximizan la luz natural. El proyecto integra tecnología smart home de vanguardia manteniendo la elegancia del diseño.'
     }
