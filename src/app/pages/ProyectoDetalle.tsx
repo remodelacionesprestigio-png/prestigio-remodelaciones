@@ -25,7 +25,7 @@ export function ProyectoDetalle() {
         'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/c3757efc-3fbb-4ab7-8179-01403cce9ebb_uag3zo.jpg',
         'https://res.cloudinary.com/dftx2cezq/image/upload/v1772938485/af036623-d36c-49a6-8ca4-fee6fd492f22_acmx6c.jpg'
       ],
-      description: 'Esta espectacular villa moderna en Beverly Hills representa lo mejor de la construcción de lujo contemporánea. Diseñada con una estética minimalista y acabados de la más alta calidad, la propiedad cuenta con amplios espacios abiertos, techos de doble altura y grandes ventanales que maximizan la luz natural. El proyecto integra tecnología smart home de vanguardia manteniendo la elegancia del diseño.'
+      description: ''
     }
   };
 
