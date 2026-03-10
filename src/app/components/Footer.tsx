@@ -58,9 +58,9 @@ export function Footer({ onOpenModal }: FooterProps) {
           <div>
             <h3 className="text-lg mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>Contacto</h3>
             <ul className="space-y-3 text-sm text-gray-400" style={{ fontFamily: 'Inter, sans-serif' }}>
-              <li>+1 (555) 123-4567</li>
+              <li>+57 322 909 0149</li>
               <li>info@prestigio.com</li>
-              <li>9000 Sunset Boulevard<br />West Hollywood, CA 90069</li>
+              <li>Calle 184 # 20-50</li>
             </ul>
             <div className="mt-6 flex space-x-3">
               <a href="#" className="w-10 h-10 border border-gray-700 hover:border-[#C9A85C] hover:bg-[#C9A85C] flex items-center justify-center transition-colors duration-200 rounded-lg">
