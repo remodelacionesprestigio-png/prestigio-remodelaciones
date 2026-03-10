@@ -22,7 +22,7 @@ import habitacion3 from '../../assets/IMG_0864.png';
 
 
 export function PortfolioRemodelaciones() {
-  const whatsappNumber = '573123456789'; // Actualizar con tu número real
+  const whatsappNumber = '573229090149'; // Actualizar con tu número real
   const whatsappMessage = encodeURIComponent('Hola, me gustaría cotizar mi remodelación');
 
   // Arrays de imágenes - Cambia estas URLs fácilmente
