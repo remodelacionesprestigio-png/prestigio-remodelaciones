@@ -2,6 +2,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
 import changeimage from "../../assets/pexels-houzlook-3797991.jpg";
+import changeimage2 from "../../assets/1ba70f77bd07ee307f97de6de497729a.jpg";
 
 export function ExploreSelections() {
   const plans = [
@@ -20,7 +21,7 @@ export function ExploreSelections() {
     },
     {
       id: 'signature',
-      image: 'https://images.unsplash.com/photo-1754788358645-d6e6cca12e25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiYXRocm9vbSUyMHNwYSUyMG1hcmJsZXxlbnwxfHx8fDE3NzE4MjI5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: changeimage2,
       title: 'Plan Prestigio',
       description: 'Remodelación completa con alto nivel de personalización y acabados de especificación superior.'
     }
