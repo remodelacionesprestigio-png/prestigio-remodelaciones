@@ -1,15 +1,5 @@
-// src/types/images.d.ts
-declare module "*.png" {
-  const value: string;
-  export default value;
-}
-
-declare module "*.jpg" {
-  const value: string;
-  export default value;
-}
-
-declare module "*.svg" {
-  const value: string;
-  export default value;
-}
+declare module "*.png"
+declare module "*.jpg"
+declare module "*.jpeg"
+declare module "*.svg"
+declare module "*.webp"
