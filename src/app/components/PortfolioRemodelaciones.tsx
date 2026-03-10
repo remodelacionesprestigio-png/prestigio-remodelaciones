@@ -2,16 +2,16 @@ import { CheckCircle } from 'lucide-react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { PortfolioCard } from './PortfolioCard';
-import cocina1 from 'figma:asset/14a2ddc305c2d02231ce0b5c51d9206c37b373df.png';
-import cocina2 from 'figma:asset/bb6e63176f0c866154ceb3f1d7d5e3e99571cab9.png';
-import cocina3 from 'figma:asset/6b768ba9243a74604f3e4009557f41244c7e6006.png';
-import cocina4 from 'figma:asset/fb23228a26a4e8c01927611c63e5a67a1624fb74.png';
-import bano1 from 'figma:asset/0b7249bd3bb458abff57029688834c029475f96e.png';
-import bano2 from 'figma:asset/c174b22678718598744c493aa090d6a943ccb0dc.png';
-import bano3 from 'figma:asset/ffd2878ddcd808c1f5af97f11b071b8bad1eefe9.png';
-import bano4 from 'figma:asset/6f387a99656274e6271fa40d286675155f51b925.png';
-import bano5 from 'figma:asset/1ce8ca972d5cd9012018279d181a124579eda9bf.png';
-import bano6 from 'figma:asset/6864605e4818dac927f1f0fff50832f2d4c4c12c.png';
+import cocina1 from '../../assets/14a2ddc305c2d02231ce0b5c51d9206c37b373df.png';
+import cocina2 from '../../assets/bb6e63176f0c866154ceb3f1d7d5e3e99571cab9.png';
+import cocina3 from '../../assets/6b768ba9243a74604f3e4009557f41244c7e6006.png';
+import cocina4 from '../../assets/fb23228a26a4e8c01927611c63e5a67a1624fb74.png';
+import bano1 from '../../assets/0b7249bd3bb458abff57029688834c029475f96e.png';
+import bano2 from '../../assets/c174b22678718598744c493aa090d6a943ccb0dc.png';
+import bano3 from '../../assets/ffd2878ddcd808c1f5af97f11b071b8bad1eefe9.png';
+import bano4 from '../../assets/6f387a99656274e6271fa40d286675155f51b925.png';
+import bano5 from '../../assets/1ce8ca972d5cd9012018279d181a124579eda9bf.png';
+import bano6 from '../../assets/6864605e4818dac927f1f0fff50832f2d4c4c12c.png';
 
 export function PortfolioRemodelaciones() {
   const whatsappNumber = '573123456789'; // Actualizar con tu número real
