@@ -20,7 +20,7 @@ export function Hero({ onOpenModal }: HeroProps) {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
-        <h1 className="text-4xl md:text-4xl lg:text-6xl mb-6 tracking-wide leading-tight max-w-6xl" style={{ fontFamily: 'Playfair Display, serif', lineHeight: '1.08' }}>
+        <h1 className="text-5xl md:text-4xl lg:text-6xl mb-6 tracking-wide leading-tight max-w-6xl" style={{ fontFamily: 'Playfair Display, serif', lineHeight: '1.08' }}>
           Desde el diseño hasta la entrega final, ejecutamos tu proyecto con orden, precisión y alto nivel de detalle.
         </h1>
         <p className="text-base md:text-lg mb-10 text-gray-200 max-w-3xl mx-auto font-light tracking-wide" style={{ fontFamily: 'Inter, sans-serif', lineHeight: '1.6' }}>
