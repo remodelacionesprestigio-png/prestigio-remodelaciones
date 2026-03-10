@@ -19,7 +19,7 @@ export function Hero({ onOpenModal }: HeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
         <h1 className="text-5xl md:text-5xl lg:text-8xl mb-6 tracking-wide leading-tight" style={{ fontFamily: 'Playfair Display, serif', lineHeight: '1.1' }}>
           Desde el diseño hasta la entrega final, ejecutamos tu proyecto con orden, precisión y alto nivel de detalle.
         </h1>
