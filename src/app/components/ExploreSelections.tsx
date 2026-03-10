@@ -1,6 +1,7 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
+import changeimage from "../../assets/pexels-houzlook-3797991.jpg";
 
 export function ExploreSelections() {
   const plans = [
@@ -12,7 +13,7 @@ export function ExploreSelections() {
     },
     {
       id: 'integral',
-      image: 'https://images.unsplash.com/photo-1771218829838-f30edb7e0263?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwZGluaW5nJTIwcm9vbSUyMGNoYW5kZWxpZXJ8ZW58MXx8fHwxNzcxODY0OTAzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: changeimage,
       title: 'Plan Integral',
       description: 'Remodelación completa con mayor nivel de especificación en acabados.',
       featured: true
