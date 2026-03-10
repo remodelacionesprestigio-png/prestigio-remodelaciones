@@ -12,6 +12,14 @@ import bano3 from '../../assets/ffd2878ddcd808c1f5af97f11b071b8bad1eefe9.png';
 import bano4 from '../../assets/6f387a99656274e6271fa40d286675155f51b925.png';
 import bano5 from '../../assets/1ce8ca972d5cd9012018279d181a124579eda9bf.png';
 import bano6 from '../../assets/6864605e4818dac927f1f0fff50832f2d4c4c12c.png';
+import sala1 from '../../assets/2efca75e-1833-4a46-abaa-90a387cbf0dd.jpeg';
+import sala2 from '../../assets/c16b2d26-79aa-4f6a-bbf0-59406a7589af.jpeg';
+import sala3 from '../../assets/fa1437d5-4de2-48f4-a648-00694631a49d.jpeg';
+import habitacion1 from '../../assets/54d81622-12aa-423b-84a5-420c0e031219.jpeg';
+import habitacion2 from '../../assets/IMG_0862.png';
+import habitacion3 from '../../assets/IMG_0864.png';
+
+
 
 export function PortfolioRemodelaciones() {
   const whatsappNumber = '573123456789'; // Actualizar con tu número real
@@ -22,13 +30,9 @@ export function PortfolioRemodelaciones() {
   
   const banoImages = [bano1, bano2, bano3, bano4, bano5, bano6];
   
-  const salaImages = [
-    'https://images.unsplash.com/photo-1767800765630-f5603a47df68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBsaXZpbmclMjByb29tJTIwTEVEJTIwbGlnaHRpbmclMjBkZXNpZ258ZW58MXx8fHwxNzczMTEwMzQwfDA&ixlib=rb-4.1.0&q=80&w=1080'
-  ];
+  const salaImages = [sala1, sala2, sala3];
   
-  const habitacionImages = [
-    'https://images.unsplash.com/photo-1765434669956-afcd50058d69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWFzdGVyJTIwYmVkcm9vbSUyMGNvbnRlbXBvcmFyeSUyMGludGVyaW9yfGVufDF8fHx8MTc3MzExMDM0MXww&ixlib=rb-4.1.0&q=80&w=1080'
-  ];
+  const habitacionImages = [habitacion1, habitacion2, habitacion3];
 
   return (
     <section className="py-24 bg-white">
