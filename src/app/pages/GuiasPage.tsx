@@ -28,30 +28,6 @@ export function GuiasPage() {
       date: 'Febrero 15, 2026',
       category: 'Materiales',
       excerpt: 'Selección experta de materiales de lujo que transformarán tu espacio en algo único y atemporal.'
-    },
-    {
-      id: '4',
-      image: 'https://images.unsplash.com/photo-1668089677938-b52086753f77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob21lJTIwaW50ZXJpb3IlMjBkZXNpZ24lMjBtb2Rlcm58ZW58MXx8fHwxNzcyNDk1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Diseño de Interiores Modernos',
-      date: 'Febrero 10, 2026',
-      category: 'Diseño',
-      excerpt: 'Principios fundamentales del diseño de interiores contemporáneo para crear espacios elegantes y funcionales.'
-    },
-    {
-      id: '5',
-      image: 'https://images.unsplash.com/photo-1646119982518-272b622c4e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBwcmVtaXVtJTIwcXVhbGl0eXxlbnwxfHx8fDE3NzI0OTU0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Sostenibilidad en Construcción de Lujo',
-      date: 'Febrero 5, 2026',
-      category: 'Sostenibilidad',
-      excerpt: 'Cómo integrar prácticas sostenibles en proyectos de construcción de lujo sin comprometer la elegancia.'
-    },
-    {
-      id: '6',
-      image: 'https://images.unsplash.com/photo-1736390800504-d3963b553aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob21lJTIwcmVub3ZhdGlvbiUyMG1vZGVybiUyMGtpdGNoZW58ZW58MXx8fHwxNzcyNDk1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Remodelación de Cocinas Premium',
-      date: 'Enero 30, 2026',
-      category: 'Espacios',
-      excerpt: 'Transforma tu cocina en un espacio gourmet con acabados de lujo y funcionalidad excepcional.'
     }
   ];
 

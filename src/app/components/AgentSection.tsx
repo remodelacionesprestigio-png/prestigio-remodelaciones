@@ -114,9 +114,6 @@ export function AgentSection({ onOpenModal }: AgentSectionProps) {
 
         {/* CTA */}
         <div className="text-center bg-white p-12 rounded-xl shadow-sm">
-          <p className="text-2xl mb-6 text-gray-900 italic font-light" style={{ fontFamily: 'Playfair Display, serif' }}>
-            "Esto transmite organización real, no promesas vacías."
-          </p>
           <button
             onClick={onOpenModal}
             className="inline-block px-10 py-4 bg-[#C9A85C] text-white hover:bg-[#B89644] transition-colors duration-200 text-sm tracking-widest rounded-lg"

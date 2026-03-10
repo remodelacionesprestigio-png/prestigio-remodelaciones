@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router';
-import logoImage from '../../assets/544b7102126f7a8e553747121d41b9338de1fff6.png';
+import logoImage from 'figma:asset/544b7102126f7a8e553747121d41b9338de1fff6.png';
 
 interface HeaderProps {
   onOpenModal: () => void;
@@ -41,7 +41,6 @@ export function Header({ onOpenModal }: HeaderProps) {
 
   const menuItems = [
     { label: 'Inicio', href: '/' },
-    { label: 'Proyectos', href: '/proyectos' },
     { label: 'Planes', href: '/planes' },
   ];
 
@@ -59,7 +58,7 @@ export function Header({ onOpenModal }: HeaderProps) {
               <img 
                 src={logoImage} 
                 alt="PRESTIGIO - Remodelaciones y construcciones S.A.S" 
-                className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto"
+                className="h-14 sm:h-12 md:h-14 lg:h-16 w-auto"
               />
             </Link>
           </div>

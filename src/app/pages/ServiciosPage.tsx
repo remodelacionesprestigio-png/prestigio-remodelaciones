@@ -192,7 +192,7 @@ export function ServiciosPage() {
             <div className="w-20 h-0.5 bg-[#C9A85C] mx-auto"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-[#C9A85C] mx-auto mb-4 flex items-center justify-center rounded-lg">
                 <CheckCircle size={32} className="text-white" />
@@ -202,18 +202,6 @@ export function ServiciosPage() {
               </h3>
               <p className="text-gray-600 font-light text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Evaluación completa sin costo
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#C9A85C] mx-auto mb-4 flex items-center justify-center rounded-lg">
-                <CheckCircle size={32} className="text-white" />
-              </div>
-              <h3 className="text-xl mb-3 text-gray-900" style={{ fontFamily: 'Playfair Display, serif' }}>
-                Permisos y Licencias
-              </h3>
-              <p className="text-gray-600 font-light text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Gestión completa de documentación
               </p>
             </div>
 

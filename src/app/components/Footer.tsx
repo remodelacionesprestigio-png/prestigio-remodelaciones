@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router';
-import logoImage from "../../assets/544b7102126f7a8e553747121d41b9338de1fff6.png";
+import logoImage from 'figma:asset/544b7102126f7a8e553747121d41b9338de1fff6.png';
 
 interface FooterProps {
   onOpenModal: () => void;
@@ -58,8 +58,9 @@ export function Footer({ onOpenModal }: FooterProps) {
           <div>
             <h3 className="text-lg mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>Contacto</h3>
             <ul className="space-y-3 text-sm text-gray-400" style={{ fontFamily: 'Inter, sans-serif' }}>
-              <li>+573229090149</li>
-              <li>info@prestigioremodelaciones.com</li>
+              <li>+1 (555) 123-4567</li>
+              <li>info@prestigio.com</li>
+              <li>9000 Sunset Boulevard<br />West Hollywood, CA 90069</li>
             </ul>
             <div className="mt-6 flex space-x-3">
               <a href="#" className="w-10 h-10 border border-gray-700 hover:border-[#C9A85C] hover:bg-[#C9A85C] flex items-center justify-center transition-colors duration-200 rounded-lg">
@@ -86,9 +87,6 @@ export function Footer({ onOpenModal }: FooterProps) {
             </a>
             <a href="#" className="text-gray-400 hover:text-[#C9A85C] transition-colors" style={{ fontFamily: 'Inter, sans-serif' }}>
               Términos
-            </a>
-            <a href="#" className="text-gray-400 hover:text-[#C9A85C] transition-colors" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Licencias
             </a>
           </div>
         </div>
