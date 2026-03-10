@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router';
-import logoImage from 'figma:asset/544b7102126f7a8e553747121d41b9338de1fff6.png';
+import logoImage from '../../assets/544b7102126f7a8e553747121d41b9338de1fff6.png';
 
 interface FooterProps {
   onOpenModal: () => void;
