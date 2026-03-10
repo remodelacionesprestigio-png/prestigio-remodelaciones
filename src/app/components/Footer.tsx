@@ -42,11 +42,6 @@ export function Footer({ onOpenModal }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <Link to="/proyectos" className="text-gray-400 hover:text-[#C9A85C] transition-colors text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  Proyectos
-                </Link>
-              </li>
-              <li>
                 <Link to="/planes" className="text-gray-400 hover:text-[#C9A85C] transition-colors text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Planes
                 </Link>
